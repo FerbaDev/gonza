@@ -10,14 +10,14 @@ export const Trayectoria = () => {
       sx={{
         paddingInline: "20px",
         paddingBlock: "50px",
-        backgroundColor: "#F2B0CF",
+        backgroundColor: "#EAEAEA",
       }}
     >
       <Card sx={{ maxWidth: "100%", display: "flex", flexWrap: "wrap" }}>
         <CardMedia
           sx={{ height: "250px", width: { xs: "100%", lg: "250px" } }}
-          image="https://firebasestorage.googleapis.com/v0/b/maria-shoes-app.appspot.com/o/trayectoria.jpeg?alt=media&token=b24182fe-3439-403e-9405-02cef044b243&_gl=1*1ijeg1d*_ga*ODUyNzA4NDA5LjE2ODgwMDA1NzM.*_ga_CW55HF8NVT*MTY5Nzc3NTIzOC42NS4xLjE2OTc3NzY0MjguMTQuMC4w"
-          title="Maria y Francois"
+          image="https://firebasestorage.googleapis.com/v0/b/gonza-lopez-almada.appspot.com/o/gonzalo.lopez-almada.jpeg?alt=media&token=088f09a9-0c1b-42c7-8e61-b6d888bdd784&_gl=1*1i2lavx*_ga*ODUyNzA4NDA5LjE2ODgwMDA1NzM.*_ga_CW55HF8NVT*MTY5OTM3OTM2Ny42Ny4xLjE2OTkzODI2NDEuMTYuMC4w"
+          title="Gonzalo Lopez Almada"
         />
         <CardContent>
           <Typography
@@ -26,7 +26,7 @@ export const Trayectoria = () => {
             component="div"
             sx={{ fontFamily: "'Bebas Neue', sans-serif;" }}
           >
-            Nuestra trayectoria
+            Sobre mí
           </Typography>
           <Typography
             variant="body"
@@ -34,10 +34,11 @@ export const Trayectoria = () => {
             sx={{ fontFamily: "'Montserrat', sans-serif;", fontWeight: "bold" }}
             paragraph
           >
-            En María, nuestra historia se entreteje con la pasión por los
-            zapatos y un compromiso inquebrantable con la calidad. Hace más de
-            dos décadas, abrimos nuestras puertas para compartir esta pasión con
-            mujeres como vos.
+            Nací el 12 de agosto de 1983 en la ciudad de Córdoba, aunque mis
+            padres viviesen en San Francisco, una ciudad cercana dónde more
+            hasta que vine a estudiar a Córdoba, dónde preferí vivir. Primero
+            estuve muy interesado en Historia carrera que abandone, no sin
+            obtener una línea cronológica mental que me serviría más adelante.
           </Typography>
           <Typography
             variant="body"
@@ -45,10 +46,10 @@ export const Trayectoria = () => {
             paragraph
             sx={{ fontFamily: "'Montserrat', sans-serif;", fontWeight: "bold" }}
           >
-            María, la fundadora y corazón de nuestra tienda, proviene de una
-            familia con un legado en la moda y los zapatos. Desde temprana edad,
-            su vida estuvo inmersa en esta industria, y su amor por los zapatos
-            es innegable.
+            Luego, me sentí más interesado por la Psicología y realicé una
+            licenciatura, pero en esta ocasión fue en una universidad privada,
+            lo que me fue más cómodo por mi forma un poco parca de ser, la cual
+            no es muy atrayente.
           </Typography>
           <Typography
             variant="body"
@@ -56,33 +57,10 @@ export const Trayectoria = () => {
             paragraph
             sx={{ fontFamily: "'Montserrat', sans-serif;", fontWeight: "bold" }}
           >
-            Lo que realmente la distingue es su conexión única con cada una de
-            nuestras queridas clientas. A lo largo de los años, ha formado
-            amistades, conociendo sus gustos y necesidades, y creando una
-            experiencia de compra personalizada que va más allá de un simple par
-            de zapatos.
-          </Typography>
-          <Typography
-            variant="body"
-            color="text.secondary"
-            paragraph
-            sx={{ fontFamily: "'Montserrat', sans-serif;", fontWeight: "bold" }}
-          >
-            Nuestra relación con los proveedores es tan sólida como nuestros
-            zapatos. Trabajamos con personas que, como nosotros, valoran la
-            calidad y la atención al detalle. Conocemos a cada proveedor
-            personalmente, lo que nos permite seleccionar materiales de primera
-            calidad y garantizar costuras precisas y terminaciones impecables.
-          </Typography>
-          <Typography
-            variant="body"
-            color="text.secondary"
-            paragraph
-            sx={{ fontFamily: "'Montserrat', sans-serif;", fontWeight: "bold" }}
-          >
-            Gracias por confiar en nosotros durante estos 21 años. Esperamos
-            continuar caminando a tu lado, brindándote calidad, estilo y, sobre
-            todo, una experiencia que valga la pena.
+            Más tarde, realice un posgrado bianual en Psicología Transpersonal y
+            una Adscripción a la cátedra de Introducción a la Filosofía de la
+            carrera de psicología; pero nunca deje de leer obras casi siempre
+            clásicas, y de escribir textos; hasta el presente.
           </Typography>
         </CardContent>
       </Card>

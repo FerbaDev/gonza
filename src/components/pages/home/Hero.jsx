@@ -7,7 +7,7 @@ export const Hero = () => {
       sx={{
         height: { xs: "95vh", md: "100vh", lg: "100vh" },
         width: "100%",
-        backgroundImage: `url("https://justaosadia.com/cdn/shop/files/JST15064.png?v=1692981099&width=800")`,
+        backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/gonza-lopez-almada.appspot.com/o/gisandria.jpg?alt=media&token=77c4aaa6-3d2d-4c92-9d2a-dc6a4670ba97&_gl=1*vlt5e2*_ga*ODUyNzA4NDA5LjE2ODgwMDA1NzM.*_ga_CW55HF8NVT*MTY5OTM3OTM2Ny42Ny4xLjE2OTkzODE3OTguNjAuMC4w")`,
         backgroundPosition: "50% 40%",
         backgroundRepeat: "no-repeat",
         display: "flex",
@@ -17,21 +17,8 @@ export const Hero = () => {
         marginTop: { lg: "8px" },
       }}
     >
-      <h1
-        style={{
-          color: "white",
-          fontSize: "3.5em",
-          textAlign: "center",
-          backgroundColor: "rgba(135, 4, 71, 0.3)",
-          width: "auto",
-          paddingInline: "20px",
-        }}
-        className="bebas"
-      >
-        Con el confort en mente
-      </h1>
       <Link to={"/shop"}>
-        <Button variant="contained" color="secondary">
+        <Button variant="contained" color="primary">
           Ver tienda
         </Button>
       </Link>

@@ -107,7 +107,7 @@ function Navbar(props) {
           sx={{ gap: "20px", display: "flex", justifyContent: "space-between" }}
         >
           <Link to="/" className="logo">
-            Maria
+            G. H. López Almada
           </Link>
           <Box sx={{ display: "flex", gap: "1em", alignItems: "center" }}>
             <Link to="/cart">
