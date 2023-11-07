@@ -5,15 +5,17 @@ export const SeccionCatalogo = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "#F2aad7",
+        backgroundColor: "#3C4048",
         paddingBlock: "20px",
         paddingLeft: "20px",
       }}
     >
-      <h1 className="bebas">Catálogo</h1>
+      <h1 className="bebas" style={{ color: "#EAEAEA" }}>
+        Catálogo
+      </h1>
       <Link to={"/shop"}>
         <Button variant="contained" color="secondary">
-          Ver productos
+          Ver libros
         </Button>
       </Link>
     </Box>
