@@ -18,10 +18,11 @@ export const Trayectoria = () => {
           maxWidth: "100%",
           display: "flex",
           flexDirection: { xs: "column", sm: "row", md: "row", lg: "row" },
+          alignItems: "center",
         }}
       >
         <CardMedia
-          sx={{ height: "250px", width: "250px", margin: "20px" }}
+          sx={{ height: "300px", width: "300px", margin: "20px" }}
           image="https://firebasestorage.googleapis.com/v0/b/gonza-lopez-almada.appspot.com/o/gonzalo.lopez-almada.jpeg?alt=media&token=088f09a9-0c1b-42c7-8e61-b6d888bdd784&_gl=1*1i2lavx*_ga*ODUyNzA4NDA5LjE2ODgwMDA1NzM.*_ga_CW55HF8NVT*MTY5OTM3OTM2Ny42Ny4xLjE2OTkzODI2NDEuMTYuMC4w"
           title="Gonzalo Lopez Almada"
         />
