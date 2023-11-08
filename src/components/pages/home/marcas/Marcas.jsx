@@ -7,7 +7,7 @@ export const Marcas = () => {
     <Box sx={{ padding: "20px" }}>
       <Box sx={{ paddingBottom: "30px" }}>
         <h2 className="bebas titulos-medios">Mis novelas</h2>
-        <p className="montserrat" style={{ fontWeight: "bold" }}>
+        <p className="montserrat">
           Sumérgete en un mundo de emociones, aventuras y misterios a través de
           mis novelas. Cada una de mis historias es un viaje único, lleno de
           personajes memorables y tramas envolventes. Desde antiguos mitos hasta

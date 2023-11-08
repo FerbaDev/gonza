@@ -31,14 +31,14 @@ export const Trayectoria = () => {
             gutterBottom
             variant="h4"
             component="div"
-            sx={{ fontFamily: "'Bebas Neue', sans-serif;" }}
+            sx={{ fontFamily: "'Merriweather', serif;" }}
           >
             Sobre mí
           </Typography>
           <Typography
             variant="body"
             color="text.secondary"
-            sx={{ fontFamily: "'Montserrat', sans-serif;", fontWeight: "bold" }}
+            sx={{ fontFamily: "'Domine', serif", fontWeight: "bold" }}
             paragraph
           >
             ¡Hola! Soy Gonzalo López Almada. Nací el 12 de agosto de 1983 en la
@@ -53,7 +53,7 @@ export const Trayectoria = () => {
             variant="body"
             color="text.secondary"
             paragraph
-            sx={{ fontFamily: "'Montserrat', sans-serif;", fontWeight: "bold" }}
+            sx={{ fontFamily: "'Domine', serif", fontWeight: "bold" }}
           >
             Después, me adentré en el mundo de la Psicología y obtuve una
             licenciatura en una universidad privada, lo cual encajó
@@ -64,7 +64,7 @@ export const Trayectoria = () => {
             variant="body"
             color="text.secondary"
             paragraph
-            sx={{ fontFamily: "'Montserrat', sans-serif;", fontWeight: "bold" }}
+            sx={{ fontFamily: "'Domine', serif", fontWeight: "bold" }}
           >
             Más adelante, realicé un posgrado de dos años en Psicología
             Transpersonal y una Adscripción a la cátedra de Introducción a la

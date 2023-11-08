@@ -25,7 +25,10 @@ export const Hero = () => {
         }}
       >
         <Link to={"/shop"}>
-          <Button variant="contained" sx={{ backgroundColor: "#1c1c1c" }}>
+          <Button
+            variant="contained"
+            sx={{ backgroundColor: "#1c1c1c", fontFamily: "serif" }}
+          >
             Ver libros
           </Button>
         </Link>
