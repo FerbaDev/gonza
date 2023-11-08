@@ -41,11 +41,13 @@ export const Trayectoria = () => {
             sx={{ fontFamily: "'Montserrat', sans-serif;", fontWeight: "bold" }}
             paragraph
           >
-            Nací el 12 de agosto de 1983 en la ciudad de Córdoba, aunque mis
-            padres viviesen en San Francisco, una ciudad cercana dónde more
-            hasta que vine a estudiar a Córdoba, dónde preferí vivir. Primero
-            estuve muy interesado en Historia carrera que abandone, no sin
-            obtener una línea cronológica mental que me serviría más adelante.
+            ¡Hola! Soy Gonzalo López Almada. Nací el 12 de agosto de 1983 en la
+            ciudad de Córdoba, aunque mis padres vivían en San Francisco, una
+            ciudad cercana, en donde en donde viví hasta que vine a estudiar a
+            Córdoba en donde decidí establecerme. Inicialmente, cursé un tiempo
+            en la Facultad de Historia, carrera que posteriormente abandoné,
+            aunque conservé una línea cronológica mental que me sería útil en el
+            futuro.
           </Typography>
           <Typography
             variant="body"
@@ -53,10 +55,10 @@ export const Trayectoria = () => {
             paragraph
             sx={{ fontFamily: "'Montserrat', sans-serif;", fontWeight: "bold" }}
           >
-            Luego, me sentí más interesado por la Psicología y realicé una
-            licenciatura, pero en esta ocasión fue en una universidad privada,
-            lo que me fue más cómodo por mi forma un poco parca de ser, la cual
-            no es muy atrayente.
+            Después, me adentré en el mundo de la Psicología y obtuve una
+            licenciatura en una universidad privada, lo cual encajó
+            perfectamente con mi naturaleza introspectiva y perspicaz, que puede
+            pasar desapercibida a primera vista.
           </Typography>
           <Typography
             variant="body"
@@ -64,10 +66,11 @@ export const Trayectoria = () => {
             paragraph
             sx={{ fontFamily: "'Montserrat', sans-serif;", fontWeight: "bold" }}
           >
-            Más tarde, realice un posgrado bianual en Psicología Transpersonal y
-            una Adscripción a la cátedra de Introducción a la Filosofía de la
-            carrera de psicología; pero nunca deje de leer obras casi siempre
-            clásicas, y de escribir textos; hasta el presente.
+            Más adelante, realicé un posgrado de dos años en Psicología
+            Transpersonal y una Adscripción a la cátedra de Introducción a la
+            Filosofía en la carrera de Psicología. Sin embargo, nunca dejé de
+            leer obras, en su mayoría clásicas, y de escribir textos; una pasión
+            que sigo cultivando hasta el día de hoy.
           </Typography>
         </CardContent>
       </Card>

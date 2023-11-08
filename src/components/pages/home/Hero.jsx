@@ -1,5 +1,6 @@
 import { Box, Button } from "@mui/material";
 import { Link } from "react-router-dom";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 export const Hero = () => {
   return (
@@ -11,19 +12,39 @@ export const Hero = () => {
         backgroundPosition: "50% 70%",
         backgroundSize: "contain",
         backgroundRepeat: "no-repeat",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "start",
-        alignItems: "end",
-        marginTop: { lg: "8px" },
-        padding: "20px",
       }}
     >
-      <Link to={"/shop"}>
-        <Button variant="contained" sx={{ backgroundColor: "#1c1c1c" }}>
-          Ver libros
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "start",
+          alignItems: "end",
+          marginTop: { lg: "8px" },
+          padding: "20px",
+        }}
+      >
+        <Link to={"/shop"}>
+          <Button variant="contained" sx={{ backgroundColor: "#1c1c1c" }}>
+            Ver libros
+          </Button>
+        </Link>
+      </Box>
+      <Box
+        sx={{
+          display: "flex",
+          width: "100%",
+          justifyContent: "space-between",
+          alignItems: "center",
+          marginTop: { lg: "8px" },
+          padding: "20px",
+        }}
+      >
+        <Box></Box>
+        <Button sx={{ color: "black" }}>
+          <ArrowForwardIosIcon sx={{}}></ArrowForwardIosIcon>
         </Button>
-      </Link>
+      </Box>
     </Box>
   );
 };

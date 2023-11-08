@@ -6,15 +6,19 @@ export const Footer = () => {
   return (
     <div className="footer">
       <ReactWhatsapp
-        number="549-3571-57-3266"
-        message="Hola María! Me gustaría hacer una consulta."
+        number="549-3513-88-5457"
+        message="Hola Gonzalo! Me gustaría hacerte una consulta."
         element="div"
       >
         <WhatsAppIcon />
       </ReactWhatsapp>
       <p style={{ fontFamily: "monospace" }}>
         Tienda creada por
-        <Link to={"https://talba-labs.vercel.app/"} className="talba">
+        <Link
+          to={"https://talba-labs.vercel.app/"}
+          className="talba"
+          target="_blank"
+        >
           <span style={{ fontFamily: "monospace" }}> Talba Labs</span>
         </Link>
       </p>
