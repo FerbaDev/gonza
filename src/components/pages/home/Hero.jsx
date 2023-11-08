@@ -8,7 +8,7 @@ export const Hero = () => {
         height: { xs: "95vh", md: "100vh", lg: "100vh" },
         width: "100%",
         backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/gonza-lopez-almada.appspot.com/o/gisandria.jpg?alt=media&token=77c4aaa6-3d2d-4c92-9d2a-dc6a4670ba97&_gl=1*vlt5e2*_ga*ODUyNzA4NDA5LjE2ODgwMDA1NzM.*_ga_CW55HF8NVT*MTY5OTM3OTM2Ny42Ny4xLjE2OTkzODE3OTguNjAuMC4w")`,
-        backgroundPosition: "50% 30%",
+        backgroundPosition: "50% 70%",
         backgroundSize: "contain",
         backgroundRepeat: "no-repeat",
         display: "flex",

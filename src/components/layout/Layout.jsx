@@ -18,13 +18,13 @@ export const Layout = () => {
         className="background"
       >
         <Outlet />
-        <Link to={"https://www.instagram.com/mariashoesclothes/"}>
+        <Link to={"https://www.instagram.com/gonzalo_clinicopsy/"}>
           <InstagramIcon
             sx={{
               position: "fixed",
               right: "20px",
               bottom: "20px",
-              height: "1.5em",
+              height: "2em",
               width: "auto",
             }}
             className="instagram"
