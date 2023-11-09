@@ -27,7 +27,8 @@ export const Hero = () => {
         <Link to={"/shop"}>
           <Button
             variant="contained"
-            sx={{ backgroundColor: "#1c1c1c", fontFamily: "serif" }}
+            sx={{ fontFamily: "serif" }}
+            color="primary"
           >
             Ver libros
           </Button>
