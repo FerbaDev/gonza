@@ -43,7 +43,7 @@ export const Trayectoria = () => {
           >
             ¡Hola! Soy Gonzalo López Almada. Nací el 12 de agosto de 1983. Crecí
             en San Francisco, hasta que vine a estudiar a Córdoba en donde vivo
-            actualmente. Inicialmente, cursé un tiempo en la Facultad de
+            actualmente. Al principio, cursé un tiempo en la Facultad de
             Historia, carrera que posteriormente abandoné, aunque conservé una
             línea cronológica mental que me sería útil en el futuro.
           </Typography>
