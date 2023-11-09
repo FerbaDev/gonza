@@ -41,13 +41,11 @@ export const Trayectoria = () => {
             sx={{ fontFamily: "'Domine', serif", fontWeight: "bold" }}
             paragraph
           >
-            ¡Hola! Soy Gonzalo López Almada. Nací el 12 de agosto de 1983 en la
-            ciudad de Córdoba, aunque mis padres vivían en San Francisco, una
-            ciudad cercana, en donde en donde viví hasta que vine a estudiar a
-            Córdoba en donde decidí establecerme. Inicialmente, cursé un tiempo
-            en la Facultad de Historia, carrera que posteriormente abandoné,
-            aunque conservé una línea cronológica mental que me sería útil en el
-            futuro.
+            ¡Hola! Soy Gonzalo López Almada. Nací el 12 de agosto de 1983. Crecí
+            en San Francisco, hasta que vine a estudiar a Córdoba en donde vivo
+            actualmente. Inicialmente, cursé un tiempo en la Facultad de
+            Historia, carrera que posteriormente abandoné, aunque conservé una
+            línea cronológica mental que me sería útil en el futuro.
           </Typography>
           <Typography
             variant="body"
