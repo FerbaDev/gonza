@@ -5,7 +5,7 @@ export const SeccionCatalogo = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "#3C4048",
+        backgroundColor: "#407ba7",
         paddingBlock: "20px",
         paddingLeft: "20px",
       }}

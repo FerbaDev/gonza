@@ -4,7 +4,9 @@ import marcas from "./marcas.json";
 
 export const Marcas = () => {
   return (
-    <Box sx={{ padding: "20px" }}>
+    <Box
+      sx={{ padding: "20px", backgroundColor: "#c00021", color: "whitesmoke" }}
+    >
       <Box sx={{ paddingBottom: "30px" }}>
         <h2 className="bebas titulos-medios">Mis novelas</h2>
         <p className="montserrat">

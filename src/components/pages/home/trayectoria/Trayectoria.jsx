@@ -10,7 +10,8 @@ export const Trayectoria = () => {
       sx={{
         paddingInline: "20px",
         paddingBlock: "50px",
-        backgroundColor: "#EAEAEA",
+
+        backgroundColor: "#004e89",
       }}
     >
       <Card
@@ -19,6 +20,8 @@ export const Trayectoria = () => {
           display: "flex",
           flexDirection: { xs: "column", sm: "row", md: "row", lg: "row" },
           alignItems: "center",
+          backgroundColor: "#407ba7",
+          color: "whitesmoke",
         }}
       >
         <CardMedia
@@ -37,7 +40,6 @@ export const Trayectoria = () => {
           </Typography>
           <Typography
             variant="body"
-            color="text.secondary"
             sx={{ fontFamily: "'Domine', serif", fontWeight: "bold" }}
             paragraph
           >
@@ -49,7 +51,6 @@ export const Trayectoria = () => {
           </Typography>
           <Typography
             variant="body"
-            color="text.secondary"
             paragraph
             sx={{ fontFamily: "'Domine', serif", fontWeight: "bold" }}
           >
@@ -60,7 +61,6 @@ export const Trayectoria = () => {
           </Typography>
           <Typography
             variant="body"
-            color="text.secondary"
             paragraph
             sx={{ fontFamily: "'Domine', serif", fontWeight: "bold" }}
           >

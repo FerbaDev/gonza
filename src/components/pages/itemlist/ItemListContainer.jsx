@@ -11,6 +11,7 @@ import {
   InputLabel,
   MenuItem,
   Select,
+  Typography,
 } from "@mui/material";
 
 import { ItemList } from "./ItemList";
@@ -59,12 +60,16 @@ const ItemListContainer = () => {
       <Box
         sx={{
           minHeight: "75vh",
+          maxWidth: "100%",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
         }}
       >
-        <CircularProgress />
+        {/* <CircularProgress /> */}
+        <Typography variant="h5" component="h2">
+          PRÓXIMAMENTE
+        </Typography>
       </Box>
     );
   }
