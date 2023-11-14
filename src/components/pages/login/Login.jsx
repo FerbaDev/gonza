@@ -86,8 +86,8 @@ const Login = () => {
           alignItems: "center",
         }}
       >
-        <h1 className="titular">Bienvenidos a Maria Shoes and Clothes!</h1>
-        <p>Antes de pasar a la tienda iniciá sesión.</p>
+        <h1 className="titular">Gonza López Almada</h1>
+        <p>Antes de pasar iniciá sesión.</p>
         <p>Si todavia no te registrate hacelo, o ingresá con Google.</p>
       </div>
       <form onSubmit={handleSubmit}>
