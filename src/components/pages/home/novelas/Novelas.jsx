@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
-import { CardMarcas } from "./CardMarcas";
-import marcas from "./marcas.json";
+import { CardNovelas } from "./CardNovelas";
+import novelas from "./novelas.json";
 
 export const Marcas = () => {
   return (
@@ -29,8 +29,8 @@ export const Marcas = () => {
           alignItems: "center",
         }}
       >
-        {marcas.map((marca) => (
-          <CardMarcas key={marca.id} {...marca} />
+        {novelas.map((marca) => (
+          <CardNovelas key={marca.id} {...marca} />
         ))}
       </Box>
     </Box>

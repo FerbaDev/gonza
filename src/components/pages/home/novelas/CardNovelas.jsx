@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import { Link } from "react-router-dom";
 
-export const CardMarcas = ({ nombre, descripcion, img, path }) => {
+export const CardNovelas = ({ nombre, descripcion, img, path }) => {
   return (
     <Card sx={{ maxWidth: 345, height: "500px" }}>
       <Link to={path}>

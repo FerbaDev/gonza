@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 
 import { Trayectoria } from "./trayectoria/Trayectoria";
-import { Marcas } from "./marcas/Marcas";
+import { Novelas } from "./novelas/Novelas";
 import { SeccionCatalogo } from "./seccionCatalogo/SeccionCatalogo";
 import { Hero } from "./Hero";
 
@@ -10,7 +10,7 @@ const Home = () => {
     <Box>
       <Hero />
       <Trayectoria />
-      <Marcas />
+      <Novelas />
       <SeccionCatalogo />
     </Box>
   );
