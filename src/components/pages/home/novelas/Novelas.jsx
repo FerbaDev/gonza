@@ -2,11 +2,9 @@ import { Box } from "@mui/material";
 import { CardNovelas } from "./CardNovelas";
 import novelas from "./novelas.json";
 
-export const Marcas = () => {
+export const Novelas = () => {
   return (
-    <Box
-      sx={{ padding: "20px", backgroundColor: "#c00021", color: "whitesmoke" }}
-    >
+    <Box sx={{ padding: "20px", backgroundColor: "#ff3d3d", color: "white" }}>
       <Box sx={{ paddingBottom: "30px" }}>
         <h2 className="bebas titulos-medios">Mis novelas</h2>
         <p className="montserrat">

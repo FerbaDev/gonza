@@ -7,9 +7,15 @@ import { Link } from "react-router-dom";
 
 export const CardNovelas = ({ nombre, descripcion, img, path }) => {
   return (
-    <Card sx={{ maxWidth: 345, height: "500px" }}>
+    <Card sx={{ maxWidth: 345 }}>
       <Link to={path}>
-        <CardActionArea>
+        <CardActionArea
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-between",
+          }}
+        >
           <CardMedia
             component="img"
             height="300"

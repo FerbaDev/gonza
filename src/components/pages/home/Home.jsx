@@ -1,5 +1,4 @@
 import { Box } from "@mui/material";
-
 import { Trayectoria } from "./trayectoria/Trayectoria";
 import { Novelas } from "./novelas/Novelas";
 import { SeccionCatalogo } from "./seccionCatalogo/SeccionCatalogo";
