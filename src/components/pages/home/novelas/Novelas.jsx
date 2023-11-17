@@ -4,7 +4,7 @@ import novelas from "./novelas.json";
 
 export const Novelas = () => {
   return (
-    <Box sx={{ padding: "20px", backgroundColor: "#ff3d3d", color: "white" }}>
+    <Box className="fondo" sx={{ padding: "20px", color: "white" }}>
       <Box sx={{ paddingBottom: "30px" }}>
         <h2 className="bebas titulos-medios">Mis novelas</h2>
         <p className="montserrat">
