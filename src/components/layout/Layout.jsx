@@ -1,8 +1,8 @@
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import { Footer } from "./footer/Footer";
 import Navbar from "./navbar/Navbar";
 import { Box } from "@mui/material";
-import InstagramIcon from "@mui/icons-material/Instagram";
+// import InstagramIcon from "@mui/icons-material/Instagram";
 
 export const Layout = () => {
   return (
@@ -18,7 +18,7 @@ export const Layout = () => {
         className="background"
       >
         <Outlet />
-        <Link
+        {/* <Link
           to={"https://www.instagram.com/gonzalo_clinicopsy/"}
           target="_blank"
         >
@@ -32,7 +32,7 @@ export const Layout = () => {
             }}
             className="instagram"
           />
-        </Link>
+        </Link> */}
       </Box>
       <Footer />
     </div>
