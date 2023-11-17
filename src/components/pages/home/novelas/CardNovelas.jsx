@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export const CardNovelas = ({ nombre, descripcion, img, path }) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345 }} className="tarjeta-novelas">
       <Link to={path}>
         <CardActionArea
           sx={{
